@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linux Server Health Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 30px;
+    color: #222;
+}
+.container {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+h1 { color: #172554; }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 15px;
+}
+.card {
+    background: #eff6ff;
+    padding: 18px;
+    border-radius: 8px;
+}
+.value {
+    font-size: 28px;
+    font-weight: bold;
+}
+.status {
+    padding: 12px;
+    background: #dcfce7;
+    border-radius: 6px;
+}
+.warning { background: #fee2e2; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+td, th { padding: 12px; border-bottom: 1px solid #ddd; text-align: left; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Linux Server Health Report</h1>
+
+<p><b>Hostname:</b> kali</p>
+<p><b>Generated:</b> 2026-11-05 11:59:21</p>
+<p><b>Uptime:</b> up 48 minutes</p>
+
+<div class="status ">
+<b>System Status: HEALTHY</b>
+<br>No resource alerts
+</div>
+
+<div class="cards">
+<div class="card">
+<h3>CPU Usage</h3>
+<div class="value">0.50%</div>
+</div>
+
+<div class="card">
+<h3>RAM Usage</h3>
+<div class="value">36.66%</div>
+</div>
+
+<div class="card">
+<h3>Disk Usage</h3>
+<div class="value">37%</div>
+</div>
+</div>
+
+<h2>Memory Details</h2>
+<p>RAM Used: 1491156992 bytes</p>
+<p>RAM Total: 4068048896 bytes</p>
+
+<h2>Disk Details</h2>
+<p>Total: 79G</p>
+<p>Used: 28G</p>
+<p>Free: 48G</p>
+
+<h2>Alerts</h2>
+<p>No resource alerts</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Date,Hostname,CPU_Usage,RAM_Usage,Disk_Usage,Status
+"2026-11-05 11:53:39","kali","0.73","27.02","37","HEALTHY"
+"2026-11-05 11:59:21","kali","0.50","36.66","37","HEALTHY"
