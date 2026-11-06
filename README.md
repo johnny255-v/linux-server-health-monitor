@@ -25,7 +25,7 @@ system health information and generates reports.
 
 Clone the repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/johnny255-v/linux-server-health-monitor.git
 
 Enter the project:
 
